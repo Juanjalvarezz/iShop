@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 // Categorías permitidas para los artículos
-const allowedCategories = ["Teléfono", "Accesorio", "Repuesto"];
+const allowedCategories = ["Telefono", "Accesorio", "Repuesto"];
 
 // Esquema del artículo
 const ArticleSchema = new Schema({
