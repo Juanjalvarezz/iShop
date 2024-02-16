@@ -6,10 +6,10 @@ const New = () => {
 
     // Estado para almacenar los datos del nuevo artículo
     const [article, setArticle] = useState({
-        nombre: null,
-        descripcion: null,
-        precio: null,
-        cantidad: null,
+         nombre: "",
+        descripcion: "",
+        precio: "",
+        cantidad: "",
         categoria: "", 
         imagen: null
     });
